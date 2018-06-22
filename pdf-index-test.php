@@ -5,7 +5,7 @@ include 'vendor/autoload.php';
  
 // Parse pdf file and build necessary objects.
 $parser = new \Smalot\PdfParser\Parser();
-$pdf    = $parser->parseFile('20180605_Double-Shift-Invoices_New-Layout-1-431.pdf');
+$pdf    = $parser->parseFile('ACTS-Billing-10April-2018_81.pdf');
  
 // Retrieve all details from the pdf file.
 $details  = $pdf->getDetails();
